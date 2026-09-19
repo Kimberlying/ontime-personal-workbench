@@ -8,7 +8,8 @@
 [![Vite](https://img.shields.io/badge/Vite-5.4-646cff?style=flat-square&logo=vite)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-38bdf8?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![MCP Ready](https://img.shields.io/badge/MCP-Protocol_Ready-0d9488?style=flat-square)](https://modelcontextprotocol.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![License: Non-Commercial](https://img.shields.io/badge/License-仅限个人非商业使用-rose?style=flat-square)](LICENSE)
+[![版权所有](https://img.shields.io/badge/版权所有-All_Rights_Reserved-slate?style=flat-square)](LICENSE)
 
 **定下截止日，万事皆如期 · 智能倒排工期与温和交付工作台**
 
@@ -147,6 +148,12 @@ npm run build
 
 ---
 
-## 📄 开源许可证 (License)
+## 📄 版权声明与使用条款 (License & Terms)
 
-本项目采用 [MIT License](LICENSE) 许可协议。
+版权所有 © 2026 Kimberly Qian (Kimberlying)。保留所有权利。
+
+本项目采用 **严格个人非商业使用协议 (Strict Non-Commercial Personal-Use License)**，详情请见 [LICENSE](LICENSE) 文件：
+
+- 🟢 **允许的个人使用**：欢迎任何个人出于个人学习、研究以及提升个人日常工作/学习效率的目的免费克隆、运行和使用本工作台。
+- 🔴 **严禁任何商业用途**：**严格禁止**将本项目的任何源代码、算法逻辑、UI 界面或其衍生作品用于任何形式的商业收费、转售、分许可、闭源封装、SaaS 盈利运营或商业服务推广。
+- 🔴 **禁止换皮再分发与擅自修改公开发行**：未经作者事先明确书面授权，任何人不得修改后以个人或商业品牌重新发布或分发衍生版本。

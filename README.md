@@ -8,7 +8,8 @@
 [![Vite](https://img.shields.io/badge/Vite-5.4-646cff?style=flat-square&logo=vite)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-38bdf8?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![MCP Ready](https://img.shields.io/badge/MCP-Protocol_Ready-0d9488?style=flat-square)](https://modelcontextprotocol.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![License: Non-Commercial](https://img.shields.io/badge/License-Non--Commercial_Personal_Use-rose?style=flat-square)](LICENSE)
+[![All Rights Reserved](https://img.shields.io/badge/Copyright-All_Rights_Reserved-slate?style=flat-square)](LICENSE)
 
 **Set Your Deadline, Deliver Everything On Time · Intelligent Backward-Scheduling Personal Workbench**
 
@@ -190,6 +191,12 @@ Connect your favorite AI agent tools directly to OnTime:
 
 ---
 
-## 📄 License
+## 📄 License & Terms of Use
 
-This project is licensed under the [MIT License](LICENSE) — feel free to use, modify, and distribute for personal or commercial productivity workflows.
+Copyright (c) 2026 Kimberly Qian (Kimberlying). All Rights Reserved.
+
+This project is licensed under a **Strict Non-Commercial Personal-Use License** ([LICENSE](LICENSE)):
+
+- 🟢 **Permitted**: You are welcome to clone, inspect, and run this application strictly for your own personal, non-commercial daily productivity and learning.
+- 🔴 **Commercial Use Prohibited**: Commercial use, resale, repackaging, SaaS hosting, or monetizing any portion of this codebase or its derived algorithms is **strictly prohibited**.
+- 🔴 **No Derivative Redistribution**: You may not redistribute, relicense, or publish modified versions of this software under another brand without explicit prior written consent from the author.
