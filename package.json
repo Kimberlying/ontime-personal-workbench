@@ -1,5 +1,6 @@
 {
-  "name": "orderly-workbench",
+  "name": "ontime-personal-workbench",
+  "description": "OnTime Personal Workbench - Intelligent backward-scheduling personal workbench with SMART goals, knowledge base retrospectives, ADHD micro starters & MCP integration",
   "private": true,
   "version": "1.0.0",
   "type": "module",
