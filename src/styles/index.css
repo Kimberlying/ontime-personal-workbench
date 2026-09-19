@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#f5f8f6] text-slate-900 antialiased font-sans;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    /* Sage & Nordic Spruce Soft Eye-Friendly Canvas */
+    background-image: 
+      radial-gradient(rgba(13, 148, 136, 0.045) 1px, transparent 1px),
+      linear-gradient(to right, rgba(13, 148, 136, 0.015) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(13, 148, 136, 0.015) 1px, transparent 1px);
+    background-size: 28px 28px;
+    background-attachment: fixed;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 rounded-full hover:bg-[#0d9488] transition-colors;
+  }
+}
+
+@layer utilities {
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .tactile-card {
+    @apply bg-white border-2 border-slate-900 rounded-2xl shadow-hard transition-all;
+  }
+
+  .tactile-card-teal {
+    @apply bg-white border-2 border-slate-900 shadow-hard-teal transition-all;
+  }
+
+  .tactile-btn {
+    @apply active:translate-x-[2px] active:translate-y-[2px] active:shadow-hard-sm transition-all cursor-pointer select-none;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.96); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.animate-pop-in {
+  animation: popIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
